@@ -1,0 +1,41 @@
+{
+  "policy": "FIFO",
+  "gantt": [
+    {
+      "pid": "A",
+      "start": 0,
+      "end": 5
+    },
+    {
+      "pid": "B",
+      "start": 5,
+      "end": 7
+    },
+    {
+      "pid": "C",
+      "start": 7,
+      "end": 11
+    },
+    {
+      "pid": "D",
+      "start": 11,
+      "end": 12
+    }
+  ],
+  "metrics": {
+    "turnaround": {
+      "A": 5,
+      "B": 6,
+      "C": 9,
+      "D": 9
+    },
+    "waiting": {
+      "A": 0,
+      "B": 4,
+      "C": 5,
+      "D": 8
+    },
+    "avg_turnaround": 7.25,
+    "avg_waiting": 4.25
+  }
+}

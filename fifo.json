@@ -1,0 +1,29 @@
+{
+  "policy": "FIFO",
+  "jobs": [
+    {
+      "pid": "A",
+      "arrival": 0,
+      "burst": 5,
+      "priority": 3
+    },
+    {
+      "pid": "B",
+      "arrival": 1,
+      "burst": 2,
+      "priority": 1
+    },
+    {
+      "pid": "C",
+      "arrival": 2,
+      "burst": 4,
+      "priority": 4
+    },
+    {
+      "pid": "D",
+      "arrival": 3,
+      "burst": 1,
+      "priority": 2
+    }
+  ]
+}
