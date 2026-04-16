@@ -19,7 +19,7 @@ For all of these algorithms, if there is ever a tie between jobs, we break it us
 ## How to Run
 You need Python 3 to run this project. Just use this command in the terminal:
 
-`python3 main.py input.json > output.json`
+`python3 Final.py input.json > output.json`
 
 If you want to test the other algorithms, just open the input file and change the "policy" string to one of the other options (like "SJF" or "FIFO").
 
